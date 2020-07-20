@@ -1,0 +1,35 @@
+\begin{tframe}{Apprendimento - Preprocessamento}
+
+    \begin{minipage}{0.64\textwidth}
+        \begin{enumerate}
+            \item Partizionamenti preliminari
+            \item Preprocessamento dei singoli valori
+            \item Creazione di finestre ed etichette
+                \begin{itemize}
+                    \item Ampiezza: 80 records
+                        \begin{itemize}
+                            \item $T_{finestra} = 0.05 * 80 = 4s$
+                        \end{itemize}
+                    \item Step: 40 records
+                \end{itemize}
+    
+        \end{enumerate}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.36\textwidth}
+        
+        \begin{figure}
+            \includegraphics[scale = 0.35]{assets/images/classification/record.png}
+            \caption*{Esempio di record}
+        \end{figure}
+        
+    \end{minipage}%
+
+    \vspace{3mm}
+    \vfill
+    \begin{figure}
+        \includesvg[scale = 0.32]{assets/images/classification/create_segments_and_labels.svg}
+        \caption*{Creazione di finestre ed etichette}
+    \end{figure}
+
+\end{tframe}
